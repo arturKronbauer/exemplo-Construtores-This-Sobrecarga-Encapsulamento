@@ -12,6 +12,12 @@ public class Produto {
 		this.quantidade = quantidade;
 	}
 
+	public Produto(String nome, double preco) {
+		super();
+		this.nome = nome;
+		this.preco = preco;
+	}
+	
 	public double valorEstoque() {
 		return preco * quantidade;
 	}
